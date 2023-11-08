@@ -1,9 +1,9 @@
 server:
-  port: 3000
+  port: 3634
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/student
+    url: jdbc:postgresql://34.126.164.82:5432/student
     username: root
     password: password
   jpa:
