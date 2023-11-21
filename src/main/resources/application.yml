@@ -3,12 +3,13 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://34.126.164.82:5432/student
+    url: jdbc:postgresql://34.142.141.98:5432/postgres
     username: root
     password: password
   jpa:
     hibernate:
-      ddl-auto: create-drop
+#      ddl-auto: create-drop
+      ddl-auto: update
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
