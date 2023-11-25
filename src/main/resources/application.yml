@@ -20,7 +20,7 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: get_route
+        - id: elastic_search
           uri: http://35.187.252.114:2160
           predicates:
             - Path=/api/search/{name}
